@@ -1,0 +1,1702 @@
+{
+  "repo": "france-api-endpoints",
+  "title": "France API endpoints",
+  "snapshot": "2026-11-16",
+  "snapshot_text": "16 Nov 2026",
+  "snapshot_time": "2026-11-16 00:00:00 IST",
+  "run": true,
+  "tested_total": 4452803,
+  "passed_total": 3346053,
+  "rows": 47486,
+  "unique_urls": 47486,
+  "services": 748,
+  "country_codes": 1,
+  "single_country": "FR",
+  "agent_ready": 47486,
+  "range": {
+    "min": "2026-11-16",
+    "max": "2026-11-17",
+    "text": "16–17 Nov 2026"
+  },
+  "formats": {
+    "json": 47486
+  },
+  "categories": {
+    "Government & Open Data": 14578,
+    "Transport & Mobility": 12419,
+    "Navigation & Geo/Maps": 10888,
+    "Statistics & Economy": 3248,
+    "Environment": 2673,
+    "Weather & Climate": 1752,
+    "Hydrology & Oceans": 816,
+    "Health": 710,
+    "Maritime": 158,
+    "Energy": 104,
+    "Hazards": 85,
+    "Finance": 23,
+    "Aviation": 18,
+    "Science": 14
+  },
+  "tags": {
+    "agent-ready": 47486,
+    "json": 47486,
+    "no-key": 47486
+  },
+  "dates": {
+    "2026-11-17": 35,
+    "2026-11-16": 47451
+  },
+  "countryNames": {
+    "FR": "France"
+  },
+  "leftOutCredential": 0,
+  "leftOutListing": 0,
+  "left_out_by_reason": {
+    "listing page, not a data call": 0,
+    "credential in the address": 0,
+    "private or local address": 0,
+    "email-like address": 0,
+    "survey form layer": 332,
+    "camera or image URL": 0,
+    "stored-login proxy": 0,
+    "class-exercise copy": 0,
+    "editable layer": 1,
+    "police stop records": 0,
+    "form answer layer": 23,
+    "needs an Indian network location": 0,
+    "leak check match": 0,
+    "coursework layer": 151,
+    "public input layer": 7,
+    "personal records layer": 1,
+    "service name like a class layer or a person": 0,
+    "social network server information": 0,
+    "another address of a left-out layer": 2,
+    "teaching organisation": 0,
+    "class account organisation": 28,
+    "class set layer": 85,
+    "university, college or school organisation": 2566,
+    "repeated address": 0,
+    "address already in an earlier pack": 82,
+    "layer already in an earlier pack": 7780,
+    "second address form of a layer": 8077
+  },
+  "leftOutExcluded": 0,
+  "left_out_by_rule": [],
+  "sample_rows": 1000,
+  "focus_rows": 32300,
+  "arcgis_online_rows": 20400,
+  "subcategories": {},
+  "agent_formats": [
+    "json"
+  ],
+  "largestServices": [
+    {
+      "service": "tabular-api.data.gouv.fr",
+      "display": "tabular-api.data.gouv.fr",
+      "host": "tabular-api.data.gouv.fr",
+      "endpoints": 27044,
+      "agent_ready": 27044,
+      "in_focus": 24919,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Esri France (ArcGIS Online)",
+      "display": "Esri France (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 933,
+      "agent_ready": 933,
+      "in_focus": 915,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization wLDmHsvxROjaiPKt",
+      "display": "ArcGIS Online layers (services.arcgis.com, org wLDmHsvxROjaiPKt)",
+      "host": "services.arcgis.com",
+      "endpoints": 659,
+      "agent_ready": 659,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization xSLkUVFsDwlw8OJK",
+      "display": "ArcGIS Online layers (services6.arcgis.com, org xSLkUVFsDwlw8OJK)",
+      "host": "services6.arcgis.com",
+      "endpoints": 646,
+      "agent_ready": 646,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization 7RhKUl41LEYtc4NA",
+      "display": "ArcGIS Online layers (services5.arcgis.com, org 7RhKUl41LEYtc4NA)",
+      "host": "services5.arcgis.com",
+      "endpoints": 456,
+      "agent_ready": 456,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Collectivité de Corse (ArcGIS Online)",
+      "display": "Collectivité de Corse (ArcGIS Online)",
+      "host": "services1.arcgis.com",
+      "endpoints": 373,
+      "agent_ready": 373,
+      "in_focus": 363,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization wNMu5mi0eOU5tY3u",
+      "display": "ArcGIS Online layers (services-eu1.arcgis.com, org wNMu5mi0eOU5tY3u)",
+      "host": "services-eu1.arcgis.com",
+      "endpoints": 338,
+      "agent_ready": 338,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization K1RVqQUkYg8ZCwTQ",
+      "display": "ArcGIS Online layers (services1.arcgis.com, org K1RVqQUkYg8ZCwTQ)",
+      "host": "services1.arcgis.com",
+      "endpoints": 285,
+      "agent_ready": 285,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization qjNehkfurYBmoO45",
+      "display": "ArcGIS Online layers (services2.arcgis.com, org qjNehkfurYBmoO45)",
+      "host": "services2.arcgis.com",
+      "endpoints": 270,
+      "agent_ready": 270,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Conseil départemental de l'Aisne (ArcGIS Online)",
+      "display": "Conseil départemental de l'Aisne (ArcGIS Online)",
+      "host": "services1.arcgis.com",
+      "endpoints": 261,
+      "agent_ready": 261,
+      "in_focus": 257,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Portail SIG du CD28 (ArcGIS Online)",
+      "display": "Portail SIG du CD28 (ArcGIS Online)",
+      "host": "services3.arcgis.com",
+      "endpoints": 259,
+      "agent_ready": 259,
+      "in_focus": 256,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization t1x2fCpzwVTiotcK",
+      "display": "ArcGIS Online layers (services6.arcgis.com, org t1x2fCpzwVTiotcK)",
+      "host": "services6.arcgis.com",
+      "endpoints": 256,
+      "agent_ready": 256,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization Jt57y69af30KhGer",
+      "display": "ArcGIS Online layers (services3.arcgis.com, org Jt57y69af30KhGer)",
+      "host": "services3.arcgis.com",
+      "endpoints": 255,
+      "agent_ready": 255,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization pFNDYLmkNQWF2E8p",
+      "display": "ArcGIS Online layers (services-eu1.arcgis.com, org pFNDYLmkNQWF2E8p)",
+      "host": "services-eu1.arcgis.com",
+      "endpoints": 239,
+      "agent_ready": 239,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization oEkatiABgemcQjxI",
+      "display": "ArcGIS Online layers (services7.arcgis.com, org oEkatiABgemcQjxI)",
+      "host": "services7.arcgis.com",
+      "endpoints": 238,
+      "agent_ready": 238,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization de9awAHJGTPtVVLW",
+      "display": "ArcGIS Online layers (services-eu1.arcgis.com, org de9awAHJGTPtVVLW)",
+      "host": "services-eu1.arcgis.com",
+      "endpoints": 234,
+      "agent_ready": 234,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization wR9S45tPMlnR7zkM",
+      "display": "ArcGIS Online layers (services7.arcgis.com, org wR9S45tPMlnR7zkM)",
+      "host": "services7.arcgis.com",
+      "endpoints": 223,
+      "agent_ready": 223,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization CaoMq07djE0FqJTO",
+      "display": "ArcGIS Online layers (services.arcgis.com, org CaoMq07djE0FqJTO)",
+      "host": "services.arcgis.com",
+      "endpoints": 191,
+      "agent_ready": 191,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization fKO2K6qiLNlgkZ2U",
+      "display": "ArcGIS Online layers (services2.arcgis.com, org fKO2K6qiLNlgkZ2U)",
+      "host": "services2.arcgis.com",
+      "endpoints": 177,
+      "agent_ready": 177,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Communauté d'Agglomération Plaine Vallée (ArcGIS Online)",
+      "display": "Communauté d'Agglomération Plaine Vallée (ArcGIS Online)",
+      "host": "services2.arcgis.com",
+      "endpoints": 174,
+      "agent_ready": 174,
+      "in_focus": 173,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization nuNzn0OMg75uWEMq",
+      "display": "ArcGIS Online layers (services9.arcgis.com, org nuNzn0OMg75uWEMq)",
+      "host": "services9.arcgis.com",
+      "endpoints": 171,
+      "agent_ready": 171,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization XgSVk5L0bMP2HZ15",
+      "display": "ArcGIS Online layers (services6.arcgis.com, org XgSVk5L0bMP2HZ15)",
+      "host": "services6.arcgis.com",
+      "endpoints": 163,
+      "agent_ready": 163,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization AFB2OfbV8ZevekJ0",
+      "display": "ArcGIS Online layers (services.arcgis.com, org AFB2OfbV8ZevekJ0)",
+      "host": "services.arcgis.com",
+      "endpoints": 155,
+      "agent_ready": 155,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization OSTljxuSj3y4z219",
+      "display": "ArcGIS Online layers (services2.arcgis.com, org OSTljxuSj3y4z219)",
+      "host": "services2.arcgis.com",
+      "endpoints": 154,
+      "agent_ready": 154,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Commune de Petit-Caux (ArcGIS Online)",
+      "display": "Commune de Petit-Caux (ArcGIS Online)",
+      "host": "services2.arcgis.com",
+      "endpoints": 154,
+      "agent_ready": 154,
+      "in_focus": 149,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    }
+  ],
+  "bannerGroups": [
+    {
+      "label": "Government & Open Data",
+      "n": 14578,
+      "agent": 14578
+    },
+    {
+      "label": "Transport & Mobility",
+      "n": 12419,
+      "agent": 12419
+    },
+    {
+      "label": "Navigation & Geo/Maps",
+      "n": 10888,
+      "agent": 10888
+    },
+    {
+      "label": "Statistics & Economy",
+      "n": 3248,
+      "agent": 3248
+    },
+    {
+      "label": "Environment",
+      "n": 2673,
+      "agent": 2673
+    },
+    {
+      "label": "Weather & Climate",
+      "n": 1752,
+      "agent": 1752
+    }
+  ],
+  "focus_text": "NOT title matches /(?<![a-z])(test|tests|testing|draft|drafts|copy|sample|samples|demo|untitled|scratch|temp|tmp|delete|deleteme|practice|dummy|example|training)(?![a-z])|final_final|\\d{7,}/i AND (NOT url matches ///(services[0-9]*(-[a-z0-9]+)?|utility)\\.arcgis\\.com//i OR NOT service matches /^ArcGIS organization /i)",
+  "buckets": [
+    {
+      "id": "agent",
+      "emoji": "🤖",
+      "name": "Agent tools",
+      "title": "Keyless JSON layers and tables an agent can call (France)",
+      "build": "Wrap one layer query as a get_layer_features tool: pass a where clause or a bounding box, return the matching features with a timeout.",
+      "filter": {
+        "tag": "agent-ready"
+      },
+      "filter_text": "tags has agent-ready",
+      "fallback": false,
+      "notes": [
+        {
+          "count": 20442,
+          "text": "are map-layer queries that asked for a few records (`resultRecordCount`); add a where clause or a geometry to ask about one place, and page through for the whole layer."
+        }
+      ],
+      "count": 47486,
+      "services_matching": 748,
+      "country_codes_matching": 1,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://services.arcgis.com/d3voDfTFbHOCRwVR/ArcGIS/rest/services/%C3%89talages_et_terrasses/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+        "title": "Étalages_et_terrasses",
+        "service": "Esri France (ArcGIS Online)",
+        "last_tested": "2026-11-16"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and are tagged `agent-ready` (no key sent in the test call, JSON body, passed a data call). Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `url matches //query\\?/i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 217,
+        "services": [
+          {
+            "service": "tabular-api.data.gouv.fr",
+            "display": "tabular-api.data.gouv.fr",
+            "host": "tabular-api.data.gouv.fr",
+            "endpoints_in_bucket": 27044,
+            "endpoints_in_pack": 27044,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://tabular-api.data.gouv.fr/api/resources/000046e3-6c93-4a0c-9648-8ce30bad2dc2/data/?page_size=10",
+            "sample_title": "data.gouv.fr tabular API: Arrêt physique sur le réseau SAEIV / sv_arret_p.csv",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Esri France (ArcGIS Online)",
+            "display": "Esri France (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 933,
+            "endpoints_in_pack": 933,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/d3voDfTFbHOCRwVR/ArcGIS/rest/services/%C3%89talages_et_terrasses/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Étalages_et_terrasses",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Collectivité de Corse (ArcGIS Online)",
+            "display": "Collectivité de Corse (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 373,
+            "endpoints_in_pack": 373,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/fugWfqwxXpHDGQIl/ArcGIS/rest/services/Accidentologie_/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Accidentologie_",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Conseil départemental de l'Aisne (ArcGIS Online)",
+            "display": "Conseil départemental de l'Aisne (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 261,
+            "endpoints_in_pack": 261,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/iNWpti7T6X4xmP8G/ArcGIS/rest/services/ADM_COMMUNES%20AGES/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ADM_COMMUNES AGES",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Portail SIG du CD28 (ArcGIS Online)",
+            "display": "Portail SIG du CD28 (ArcGIS Online)",
+            "host": "services3.arcgis.com",
+            "endpoints_in_bucket": 259,
+            "endpoints_in_pack": 259,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services3.arcgis.com/OT44GCUVawSsHvFg/ArcGIS/rest/services/ARCGIS_ONLINE_ROUTES_2028_GLOBAL_NOV_2023/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ARCGIS_ONLINE_ROUTES_2028_GLOBAL_NOV_2023",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Communauté d'Agglomération Plaine Vallée (ArcGIS Online)",
+            "display": "Communauté d'Agglomération Plaine Vallée (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 174,
+            "endpoints_in_pack": 174,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/rDH2Z04XoJ9VRLop/ArcGIS/rest/services/18_communes/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "18_communes",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Commune de Petit-Caux (ArcGIS Online)",
+            "display": "Commune de Petit-Caux (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 154,
+            "endpoints_in_pack": 154,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/DhKp7RYehDQLyWZh/ArcGIS/rest/services/Acc%C3%A8s_plage/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Accès_plage",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Communauté d'Agglomération de Lens-Liévin (ArcGIS Online)",
+            "display": "Communauté d'Agglomération de Lens-Liévin (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 145,
+            "endpoints_in_pack": 145,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/BRw7qlbbcVM2z8ab/ArcGIS/rest/services/ADMINISTRATIF/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ADMINISTRATIF",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          }
+        ]
+      }
+    },
+    {
+      "id": "app",
+      "emoji": "📱",
+      "name": "App features",
+      "title": "Map layers and table rows to show in an app (France)",
+      "build": "Show a layer on a map, or the first rows of a data.gouv.fr table in a card; page through for more.",
+      "filter": {
+        "or": [
+          {
+            "urlMatches": "/(Feature|Map)Server/"
+          },
+          {
+            "host": "tabular-api.data.gouv.fr"
+          }
+        ]
+      },
+      "filter_text": "url matches //(Feature|Map)Server//i OR host is tabular-api.data.gouv.fr",
+      "fallback": false,
+      "notes": [],
+      "count": 47486,
+      "services_matching": 748,
+      "country_codes_matching": 1,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://tabular-api.data.gouv.fr/api/resources/000046e3-6c93-4a0c-9648-8ce30bad2dc2/data/?page_size=10",
+        "title": "data.gouv.fr tabular API: Arrêt physique sur le réseau SAEIV / sv_arret_p.csv",
+        "service": "tabular-api.data.gouv.fr",
+        "last_tested": "2026-11-16"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 217,
+        "services": [
+          {
+            "service": "tabular-api.data.gouv.fr",
+            "display": "tabular-api.data.gouv.fr",
+            "host": "tabular-api.data.gouv.fr",
+            "endpoints_in_bucket": 27044,
+            "endpoints_in_pack": 27044,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://tabular-api.data.gouv.fr/api/resources/000046e3-6c93-4a0c-9648-8ce30bad2dc2/data/?page_size=10",
+            "sample_title": "data.gouv.fr tabular API: Arrêt physique sur le réseau SAEIV / sv_arret_p.csv",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Esri France (ArcGIS Online)",
+            "display": "Esri France (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 933,
+            "endpoints_in_pack": 933,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/d3voDfTFbHOCRwVR/ArcGIS/rest/services/%C3%89talages_et_terrasses/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Étalages_et_terrasses",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Collectivité de Corse (ArcGIS Online)",
+            "display": "Collectivité de Corse (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 373,
+            "endpoints_in_pack": 373,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/fugWfqwxXpHDGQIl/ArcGIS/rest/services/Accidentologie_/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Accidentologie_",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Conseil départemental de l'Aisne (ArcGIS Online)",
+            "display": "Conseil départemental de l'Aisne (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 261,
+            "endpoints_in_pack": 261,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/iNWpti7T6X4xmP8G/ArcGIS/rest/services/ADM_COMMUNES%20AGES/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ADM_COMMUNES AGES",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Portail SIG du CD28 (ArcGIS Online)",
+            "display": "Portail SIG du CD28 (ArcGIS Online)",
+            "host": "services3.arcgis.com",
+            "endpoints_in_bucket": 259,
+            "endpoints_in_pack": 259,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services3.arcgis.com/OT44GCUVawSsHvFg/ArcGIS/rest/services/ARCGIS_ONLINE_ROUTES_2028_GLOBAL_NOV_2023/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ARCGIS_ONLINE_ROUTES_2028_GLOBAL_NOV_2023",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Communauté d'Agglomération Plaine Vallée (ArcGIS Online)",
+            "display": "Communauté d'Agglomération Plaine Vallée (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 174,
+            "endpoints_in_pack": 174,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/rDH2Z04XoJ9VRLop/ArcGIS/rest/services/18_communes/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "18_communes",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Commune de Petit-Caux (ArcGIS Online)",
+            "display": "Commune de Petit-Caux (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 154,
+            "endpoints_in_pack": 154,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/DhKp7RYehDQLyWZh/ArcGIS/rest/services/Acc%C3%A8s_plage/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Accès_plage",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Communauté d'Agglomération de Lens-Liévin (ArcGIS Online)",
+            "display": "Communauté d'Agglomération de Lens-Liévin (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 145,
+            "endpoints_in_pack": 145,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/BRw7qlbbcVM2z8ab/ArcGIS/rest/services/ADMINISTRATIF/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ADMINISTRATIF",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grounding",
+      "emoji": "🧠",
+      "name": "Grounding and data pipelines",
+      "title": "Statistics, boundaries, parcels and inventories for scheduled loads (France)",
+      "build": "Load the tables and layers on a schedule into your own store, so an agent can cite a dated source.",
+      "filter": {
+        "or": [
+          {
+            "format": [
+              "csv",
+              "xml",
+              "geojson"
+            ]
+          },
+          {
+            "titleMatches": "statist|census|population|boundar|parcel|zoning|district|budget|election|crash|permit|inventory|land ?use|landuse|cadast|address"
+          }
+        ]
+      },
+      "filter_text": "format in (csv, xml, geojson) OR title matches /statist|census|population|boundar|parcel|zoning|district|budget|election|crash|permit|inventory|land ?use|landuse|cadast|address/i",
+      "fallback": false,
+      "notes": [],
+      "count": 1695,
+      "services_matching": 177,
+      "country_codes_matching": 1,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://tabular-api.data.gouv.fr/api/resources/0007b6c0-9040-4445-a744-ab9090721f57/data/?page_size=10",
+        "title": "data.gouv.fr tabular API: Budget 2026 (BP) de la Région Centre-Val de Loire selon l'instruction budgétaire et comptable M57 / budget-2026-bp-rcvl-m57.csv",
+        "service": "tabular-api.data.gouv.fr",
+        "last_tested": "2026-11-16"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 61,
+        "services": [
+          {
+            "service": "tabular-api.data.gouv.fr",
+            "display": "tabular-api.data.gouv.fr",
+            "host": "tabular-api.data.gouv.fr",
+            "endpoints_in_bucket": 1195,
+            "endpoints_in_pack": 27044,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://tabular-api.data.gouv.fr/api/resources/0007b6c0-9040-4445-a744-ab9090721f57/data/?page_size=10",
+            "sample_title": "data.gouv.fr tabular API: Budget 2026 (BP) de la Région Centre-Val de Loire selon l'instruction budgétaire et comptable M57 / budget-2026-bp-rcvl-m57.csv",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Esri France (ArcGIS Online)",
+            "display": "Esri France (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 43,
+            "endpoints_in_pack": 933,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/d3voDfTFbHOCRwVR/ArcGIS/rest/services/District_Inde_JP/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "District_Inde_JP",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Communauté d'Agglomération Plaine Vallée (ArcGIS Online)",
+            "display": "Communauté d'Agglomération Plaine Vallée (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 19,
+            "endpoints_in_pack": 174,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/rDH2Z04XoJ9VRLop/ArcGIS/rest/services/Parcellaire_public_2023_Andilly/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Parcellaire_public_2023_Andilly",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Gouvernement de la Nouvelle-Calédonie (ArcGIS Online)",
+            "display": "Gouvernement de la Nouvelle-Calédonie (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 15,
+            "endpoints_in_pack": 105,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/TZcrgU6CIbqWt9Qv/ArcGIS/rest/services/cadastre_centroide/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "cadastre_centroide",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Ville de Victoriaville (ArcGIS Online)",
+            "display": "Ville de Victoriaville (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 14,
+            "endpoints_in_pack": 112,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/UojxRYPSwkE7A9CP/ArcGIS/rest/services/Demographie2/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Demographie2 / Population totale",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "PETR du Piémont des Vosges (ArcGIS Online)",
+            "display": "PETR du Piémont des Vosges (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 13,
+            "endpoints_in_pack": 139,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/WEjoILHjHd4dghw9/ArcGIS/rest/services/Parcelles_orphelines/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Parcelles_orphelines",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Commune de Petit-Caux (ArcGIS Online)",
+            "display": "Commune de Petit-Caux (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 11,
+            "endpoints_in_pack": 154,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/DhKp7RYehDQLyWZh/ArcGIS/rest/services/Adresse_cadastre/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Adresse_cadastre",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Atmo Auvergne-Rhône-Alpes (ArcGIS Online)",
+            "display": "Atmo Auvergne-Rhône-Alpes (ArcGIS Online)",
+            "host": "services3.arcgis.com",
+            "endpoints_in_bucket": 9,
+            "endpoints_in_pack": 74,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services3.arcgis.com/o7Q3o5SkiSeZD5LK/ArcGIS/rest/services/Populations%20expos%C3%A9es%20en%20Auvergne-Rh%C3%B4ne-Alpes%20en%202020/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Populations exposées en Auvergne-Rhône-Alpes en 2020",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evals",
+      "emoji": "🧪",
+      "name": "Evals and testing",
+      "title": "Varied responses to test tool calls and parsers",
+      "build": "Run your tool calls against a fixed set of URLs across formats and record which answer; last_tested is the baseline for your own re-tests.",
+      "filter": {
+        "whole": true
+      },
+      "filter_text": "the whole pack",
+      "fallback": false,
+      "notes": [],
+      "count": 47486,
+      "services_matching": 748,
+      "country_codes_matching": 1,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://tabular-api.data.gouv.fr/api/resources/000046e3-6c93-4a0c-9648-8ce30bad2dc2/data/?page_size=10",
+        "title": "data.gouv.fr tabular API: Arrêt physique sur le réseau SAEIV / sv_arret_p.csv",
+        "service": "tabular-api.data.gouv.fr",
+        "last_tested": "2026-11-16"
+      },
+      "recommended": {
+        "criteria": "Services in this pack that returned the most different formats, then the most endpoints that passed a data call, then by name: a mix of response shapes to test parsers and tool calls. Here the services returned 1 format each, so the order comes down to endpoint counts. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 217,
+        "services": [
+          {
+            "service": "tabular-api.data.gouv.fr",
+            "display": "tabular-api.data.gouv.fr",
+            "host": "tabular-api.data.gouv.fr",
+            "endpoints_in_bucket": 27044,
+            "endpoints_in_pack": 27044,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://tabular-api.data.gouv.fr/api/resources/000046e3-6c93-4a0c-9648-8ce30bad2dc2/data/?page_size=10",
+            "sample_title": "data.gouv.fr tabular API: Arrêt physique sur le réseau SAEIV / sv_arret_p.csv",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Esri France (ArcGIS Online)",
+            "display": "Esri France (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 933,
+            "endpoints_in_pack": 933,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/d3voDfTFbHOCRwVR/ArcGIS/rest/services/%C3%89talages_et_terrasses/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Étalages_et_terrasses",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Collectivité de Corse (ArcGIS Online)",
+            "display": "Collectivité de Corse (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 373,
+            "endpoints_in_pack": 373,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/fugWfqwxXpHDGQIl/ArcGIS/rest/services/Accidentologie_/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Accidentologie_",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Conseil départemental de l'Aisne (ArcGIS Online)",
+            "display": "Conseil départemental de l'Aisne (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 261,
+            "endpoints_in_pack": 261,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/iNWpti7T6X4xmP8G/ArcGIS/rest/services/ADM_COMMUNES%20AGES/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ADM_COMMUNES AGES",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Portail SIG du CD28 (ArcGIS Online)",
+            "display": "Portail SIG du CD28 (ArcGIS Online)",
+            "host": "services3.arcgis.com",
+            "endpoints_in_bucket": 259,
+            "endpoints_in_pack": 259,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services3.arcgis.com/OT44GCUVawSsHvFg/ArcGIS/rest/services/ARCGIS_ONLINE_ROUTES_2028_GLOBAL_NOV_2023/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ARCGIS_ONLINE_ROUTES_2028_GLOBAL_NOV_2023",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Communauté d'Agglomération Plaine Vallée (ArcGIS Online)",
+            "display": "Communauté d'Agglomération Plaine Vallée (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 174,
+            "endpoints_in_pack": 174,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/rDH2Z04XoJ9VRLop/ArcGIS/rest/services/18_communes/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "18_communes",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Commune de Petit-Caux (ArcGIS Online)",
+            "display": "Commune de Petit-Caux (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 154,
+            "endpoints_in_pack": 154,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/DhKp7RYehDQLyWZh/ArcGIS/rest/services/Acc%C3%A8s_plage/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Accès_plage",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Communauté d'Agglomération de Lens-Liévin (ArcGIS Online)",
+            "display": "Communauté d'Agglomération de Lens-Liévin (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 145,
+            "endpoints_in_pack": 145,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/BRw7qlbbcVM2z8ab/ArcGIS/rest/services/ADMINISTRATIF/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ADMINISTRATIF",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "q": "What do the first rows of a data.gouv.fr table hold?",
+      "filter": "url matches /tabular-api\\.data\\.gouv\\.fr/api/resources//i",
+      "url": "https://tabular-api.data.gouv.fr/api/resources/000046e3-6c93-4a0c-9648-8ce30bad2dc2/data/?page_size=10",
+      "title": "data.gouv.fr tabular API: Arrêt physique sur le réseau SAEIV / sv_arret_p.csv",
+      "service": "tabular-api.data.gouv.fr",
+      "last_tested": "2026-11-16",
+      "matching": 27044
+    },
+    {
+      "q": "Which layers does the Collectivité de Corse publish?",
+      "filter": "url matches /fugWfqwxXpHDGQIl/arcgis/rest/services//i",
+      "url": "https://services1.arcgis.com/fugWfqwxXpHDGQIl/ArcGIS/rest/services/Accidentologie_/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+      "title": "Accidentologie_",
+      "service": "Collectivité de Corse (ArcGIS Online)",
+      "last_tested": "2026-11-16",
+      "matching": 373
+    },
+    {
+      "q": "Which layers does the Conseil départemental de l'Aisne publish?",
+      "filter": "url matches /iNWpti7T6X4xmP8G/arcgis/rest/services//i",
+      "url": "https://services1.arcgis.com/iNWpti7T6X4xmP8G/ArcGIS/rest/services/ADM_COMMUNES%20AGES/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+      "title": "ADM_COMMUNES AGES",
+      "service": "Conseil départemental de l'Aisne (ArcGIS Online)",
+      "last_tested": "2026-11-16",
+      "matching": 261
+    }
+  ],
+  "preview_focused": true,
+  "preview": [
+    {
+      "title": "data.gouv.fr tabular API: Arrêt physique sur le réseau SAEIV / sv_arret_p.csv",
+      "service": "tabular-api.data.gouv.fr",
+      "country": "FR",
+      "category": "Transport & Mobility",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "tabular-api.data.gouv.fr",
+      "url": "https://tabular-api.data.gouv.fr/api/resources/000046e3-6c93-4a0c-9648-8ce30bad2dc2/data/?page_size=10"
+    },
+    {
+      "title": "Étalages_et_terrasses",
+      "service": "Esri France (ArcGIS Online)",
+      "country": "FR",
+      "category": "Navigation & Geo/Maps",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "services.arcgis.com",
+      "url": "https://services.arcgis.com/d3voDfTFbHOCRwVR/ArcGIS/rest/services/%C3%89talages_et_terrasses/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json"
+    },
+    {
+      "title": "Accidentologie_",
+      "service": "Collectivité de Corse (ArcGIS Online)",
+      "country": "FR",
+      "category": "Navigation & Geo/Maps",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "services1.arcgis.com",
+      "url": "https://services1.arcgis.com/fugWfqwxXpHDGQIl/ArcGIS/rest/services/Accidentologie_/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json"
+    },
+    {
+      "title": "ADM_COMMUNES AGES",
+      "service": "Conseil départemental de l'Aisne (ArcGIS Online)",
+      "country": "FR",
+      "category": "Navigation & Geo/Maps",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "services1.arcgis.com",
+      "url": "https://services1.arcgis.com/iNWpti7T6X4xmP8G/ArcGIS/rest/services/ADM_COMMUNES%20AGES/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json"
+    },
+    {
+      "title": "ARCGIS_ONLINE_ROUTES_2028_GLOBAL_NOV_2023",
+      "service": "Portail SIG du CD28 (ArcGIS Online)",
+      "country": "FR",
+      "category": "Transport & Mobility",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "services3.arcgis.com",
+      "url": "https://services3.arcgis.com/OT44GCUVawSsHvFg/ArcGIS/rest/services/ARCGIS_ONLINE_ROUTES_2028_GLOBAL_NOV_2023/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json"
+    }
+  ],
+  "limits": [
+    {
+      "id": "record-count",
+      "text": "20,442 rows are map-layer queries with resultRecordCount set: the tested call asked for a few records; change the query to get the full layer."
+    },
+    {
+      "id": "pack",
+      "text": "20,400 rows are layers on ArcGIS Online, where anyone can publish: some are class projects, tests or copies. Check the owner and the fields before you rely on one. Only layers of organisations with a name of their own, whose titles do not read as a test, draft or copy, are used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "2,754 rows have a title that reads as a test, a draft, a copy or a sample; they are not used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "The country code (FR) is the code the endpoint is filed under, not the place the data covers and not always the publisher's country. Where a row had no code, the code of its ArcGIS organisation is used when that organisation lists one country only. In a sample of 14 titles read before release, none was about a place outside France. Filter by title or service if you need data about one place."
+    },
+    {
+      "id": "quiet",
+      "text": "Stations and feeds can go quiet after their test date; re-test a URL before you rely on it."
+    },
+    {
+      "id": "not-in",
+      "text": "Not in this pack: endpoints that need a key or a POST, and URLs that did not pass."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 332 ArcGIS Survey123 layers (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 1 layer marked editable in the title (it can hold entries that people added)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 23 ArcGIS layers that keep a form's default service name (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 151 ArcGIS class or coursework layers (lab, assignment, exam, quiz, lesson, exercise, tutorial and final-project layers, copies of class layers, layers named for a person or a person's home, and layers whose name ends in a person's name or holds a student number)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 7 ArcGIS layers that hold reports, comments, submissions or form responses sent in by the public."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 1 ArcGIS layer that is a record about named people (employee, patient, client or donor lists, home addresses, voter lists, sex offender and missing person layers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 2 rows that are another address of an ArcGIS layer dropped for what it holds (one of the reasons above, found under another address of the layer)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 28 rows of ArcGIS Online organisations that are class accounts (3 class sets or more in at least 20% of their rows, 10 class sets or more with no organisation name, or layers signed by students read by hand): their other layers are students' work too."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 85 rows of class sets: one map layer saved under 5 or more students' initials or names in one ArcGIS Online organisation, or in 4 or more students' own organisations."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 2,566 rows of university, college and school organisations and hosts (many of their layers are students' work)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 82 rows whose address is already in an earlier pack of the collection."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 7,780 rows that are another address form of an ArcGIS layer already in an earlier pack of the collection (the same rows under another query)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 8,077 rows that are a second address form of an ArcGIS layer in this list (the same rows under another query); one address is kept per layer, the newest test first."
+    }
+  ],
+  "name": "47k-france-apis-for-agents",
+  "services_tested": null,
+  "services_file_rows": 748,
+  "sample_mix": [
+    {
+      "source": "tabular-api.data.gouv.fr",
+      "focus_rows": 24919,
+      "sample_rows": 500
+    },
+    {
+      "source": "ArcGIS Online layers",
+      "focus_rows": 7340,
+      "sample_rows": 485
+    },
+    {
+      "source": "Dijon (api-carto.dijon.fr)",
+      "focus_rows": 20,
+      "sample_rows": 3
+    },
+    {
+      "source": "Agglo Lenslievin (geoservices.agglo-lenslievin.fr)",
+      "focus_rows": 8,
+      "sample_rows": 2
+    },
+    {
+      "source": "Iau Idf (geoweb.iau-idf.fr)",
+      "focus_rows": 5,
+      "sample_rows": 2
+    },
+    {
+      "source": "Ampmetropole (sig.ampmetropole.fr)",
+      "focus_rows": 2,
+      "sample_rows": 2
+    },
+    {
+      "source": "Esrifrance (maps.esrifrance.fr)",
+      "focus_rows": 2,
+      "sample_rows": 2
+    },
+    {
+      "source": "Ville Roubaix (carto.ville-roubaix.fr)",
+      "focus_rows": 2,
+      "sample_rows": 2
+    },
+    {
+      "source": "Brest Metropole (geo.brest-metropole.fr)",
+      "focus_rows": 1,
+      "sample_rows": 1
+    },
+    {
+      "source": "Normandie (carto.normandie.fr)",
+      "focus_rows": 1,
+      "sample_rows": 1
+    }
+  ],
+  "sample_focus_rows": 32300,
+  "sample_rule": "1,000 rows, or one third of the pack rounded down, whichever is smaller",
+  "files": [
+    {
+      "name": "data/France_API_Services_AgentPopulation.csv",
+      "rows": 748,
+      "bytes": 48706,
+      "sha256": "c3c8c6cc2839e86445413ca360464a86db553cb640ca865452db42109232a54f"
+    },
+    {
+      "name": "data/France_API_Endpoints_AgentPopulation_Sample.csv",
+      "rows": 1000,
+      "bytes": 333218,
+      "sha256": "756d24b90d6cc84a7d63d0464724639910956342b2590b61476e4a86e08bbadc"
+    },
+    {
+      "name": "data/France_API_Endpoints_AgentPopulation_Sample.json",
+      "rows": 1000,
+      "bytes": 516081,
+      "sha256": "f7b1f3a9d3bdeb6689d79b852c75f6a29a605dfecaa829df60f837ad68e86ca9"
+    }
+  ],
+  "release_asset": {
+    "name": "France_API_Endpoints_AgentPopulation_Snapshot_2026-11-16.csv.gz",
+    "rows": 47486,
+    "bytes": 1977594,
+    "raw_bytes": 15974907,
+    "sha256": "b223aeddd2f57e70221b0ffedbfb8ef1b512fb959148382a55734bc70e413a80",
+    "url": "https://github.com/agentpopulation/47k-france-apis-for-agents/releases/latest/download/France_API_Endpoints_AgentPopulation_Snapshot_2026-11-16.csv.gz"
+  },
+  "release_tag": "snapshot-2026-11-16",
+  "overlaps": [
+    {
+      "repo": "weather-api-endpoints",
+      "name": "170k-weather-apis-for-agents",
+      "title": "Weather API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "transit-api-endpoints",
+      "name": "240k-transit-apis-for-agents",
+      "title": "Transit API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "water-api-endpoints",
+      "name": "260k-water-apis-for-agents",
+      "title": "Rivers and water API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "finance-economy-api-endpoints",
+      "name": "120k-finance-economy-apis-for-agents",
+      "title": "Finance and economy API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "india-api-endpoints",
+      "name": "130k-india-apis-for-agents",
+      "title": "India API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "government-open-data-api-endpoints",
+      "name": "1.2m-government-open-data-apis",
+      "title": "Government open data API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "statistics-api-endpoints",
+      "name": "270k-statistics-apis-for-agents",
+      "title": "Statistics and census API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "oceans-api-endpoints",
+      "name": "84k-oceans-apis-for-agents",
+      "title": "Ocean and marine API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "maritime-api-endpoints",
+      "name": "22k-maritime-apis-for-agents",
+      "title": "Maritime API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "environment-api-endpoints",
+      "name": "160k-environment-apis-for-agents",
+      "title": "Environment API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "air-quality-api-endpoints",
+      "name": "19k-air-quality-apis-for-agents",
+      "title": "Air quality API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "maps-gis-api-endpoints",
+      "name": "350k-maps-gis-apis-for-agents",
+      "title": "Maps and GIS API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "agent-ready-api-endpoints",
+      "name": "2.2m-agent-ready-apis",
+      "title": "Agent-ready API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "health-api-endpoints",
+      "name": "84k-health-apis-for-agents",
+      "title": "Health API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "science-api-endpoints",
+      "name": "380k-science-apis-for-agents",
+      "title": "Science API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "hazards-api-endpoints",
+      "name": "40k-hazards-apis-for-agents",
+      "title": "Hazards and alerts API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "wildfire-api-endpoints",
+      "name": "4.9k-wildfire-apis-for-agents",
+      "title": "Wildfire API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "energy-api-endpoints",
+      "name": "67k-energy-apis-for-agents",
+      "title": "Energy API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "aviation-api-endpoints",
+      "name": "23k-aviation-apis-for-agents",
+      "title": "Aviation API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "traffic-api-endpoints",
+      "name": "22k-traffic-apis-for-agents",
+      "title": "Traffic and roadworks API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "parking-api-endpoints",
+      "name": "10k-parking-apis-for-agents",
+      "title": "Parking API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "earthquake-api-endpoints",
+      "name": "7.8k-earthquake-apis-for-agents",
+      "title": "Earthquake API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "volcano-tsunami-api-endpoints",
+      "name": "4.2k-volcano-tsunami-apis-for-agents",
+      "title": "Volcano and tsunami API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "bike-share-api-endpoints",
+      "name": "17k-bike-share-apis-for-agents",
+      "title": "Bike-share API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "united-states-api-endpoints",
+      "name": "750k-united-states-apis-for-agents",
+      "title": "United States API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "united-kingdom-api-endpoints",
+      "name": "52k-united-kingdom-apis-for-agents",
+      "title": "United Kingdom API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "spain-api-endpoints",
+      "name": "8.1k-spain-apis-for-agents",
+      "title": "Spain API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "indonesia-api-endpoints",
+      "name": "22k-indonesia-apis-for-agents",
+      "title": "Indonesia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "canada-api-endpoints",
+      "name": "19k-canada-apis-for-agents",
+      "title": "Canada API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "netherlands-api-endpoints",
+      "name": "17k-netherlands-apis-for-agents",
+      "title": "Netherlands API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "germany-api-endpoints",
+      "name": "14k-germany-apis-for-agents",
+      "title": "Germany API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "norway-api-endpoints",
+      "name": "12k-norway-apis-for-agents",
+      "title": "Norway API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "brazil-api-endpoints",
+      "name": "14k-brazil-apis-for-agents",
+      "title": "Brazil API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "japan-api-endpoints",
+      "name": "9.8k-japan-apis-for-agents",
+      "title": "Japan API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "australia-api-endpoints",
+      "name": "12k-australia-apis-for-agents",
+      "title": "Australia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "colombia-api-endpoints",
+      "name": "10k-colombia-apis-for-agents",
+      "title": "Colombia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "czechia-api-endpoints",
+      "name": "6.3k-czechia-apis-for-agents",
+      "title": "Czechia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "poland-api-endpoints",
+      "name": "6.3k-poland-apis-for-agents",
+      "title": "Poland API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "taiwan-api-endpoints",
+      "name": "4.2k-taiwan-apis-for-agents",
+      "title": "Taiwan API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "italy-api-endpoints",
+      "name": "7.3k-italy-apis-for-agents",
+      "title": "Italy API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "new-zealand-api-endpoints",
+      "name": "6.1k-new-zealand-apis-for-agents",
+      "title": "New Zealand API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "nordic-api-endpoints",
+      "name": "13k-nordic-apis-for-agents",
+      "title": "Nordic API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "more-europe-api-endpoints",
+      "name": "24k-more-europe-apis-for-agents",
+      "title": "More Europe API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "latin-america-caribbean-api-endpoints",
+      "name": "20k-latin-america-caribbean-apis-for-agents",
+      "title": "Latin America and Caribbean API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "europe-region-arcgis-api-endpoints",
+      "name": "59k-europe-region-arcgis-apis-for-agents",
+      "title": "Europe-region ArcGIS API endpoints",
+      "shared": 2383
+    },
+    {
+      "repo": "middle-east-africa-api-endpoints",
+      "name": "6.7k-middle-east-africa-apis-for-agents",
+      "title": "Middle East and Africa API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "county-and-city-gis-api-endpoints",
+      "name": "160k-county-and-city-gis-apis-for-agents",
+      "title": "County and city GIS API endpoints",
+      "shared": 183
+    },
+    {
+      "repo": "public-agency-gis-api-endpoints",
+      "name": "47k-public-agency-gis-apis-for-agents",
+      "title": "Public agency GIS API endpoints",
+      "shared": 11
+    },
+    {
+      "repo": "arcgis-server-api-endpoints",
+      "name": "25k-arcgis-server-apis-for-agents",
+      "title": "ArcGIS Server API endpoints",
+      "shared": 42
+    }
+  ],
+  "pack_count": 50,
+  "description": "47,486 API endpoints filed under country code FR that passed a keyless data call. For agent tools, apps, pipelines and evals. CSV, CC BY 4.0.",
+  "readme_ap_share": 0.088,
+  "country_counts": {
+    "FR": 47486
+  }
+}
